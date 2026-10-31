@@ -86,6 +86,41 @@ Format:  WAV 24-bit PCM
 
 ---
 
+## 2.5 无插件复现
+
+**只有 Node，不装任何乐器也能听到曲子**——听到的是合成器 sketch，不是最终音色。
+
+```powershell
+cd house-demo      && node render-preview.mjs   # → house-124-fmin-preview.wav  (5:31)
+cd ../thrash-metal && node render-preview.mjs   # → thrash-preview.wav          (3:23)
+```
+
+- 只读 `.mid`，只用 Node 内置模块，**不需要 `npm install`**
+- `npm install` 只对 `.gp` 乐谱脚本有用（alphaTab）
+
+### 把采样和人声也加进来
+
+合成器脚本只渲染 MIDI 轨。采样层（pad / riser / boom / clap / break）和人声是普通音频 item，需要 REAPER，但**不需要任何 VST**：
+
+1. `node render-preview.mjs` → 合成器层
+2. REAPER 打开 `.rpp` → `File → Render`（Master mix）→ 采样/人声层
+3. 两轨混合：
+
+```powershell
+ffmpeg -i synth.wav -i samples.wav -filter_complex "[0:a][1:a]amix=inputs=2:normalize=0,volume=-3dB" mix.wav
+```
+
+### 和正式版差在哪
+
+| | 无插件复现 | 装齐插件 |
+|---|---|---|
+| 音符、结构、律动 | ✅ 完全一致 | ✅ |
+| 鼓 | 合成器模拟 | MT-PowerDrumKit |
+| 吉他 | 合成器模拟 | Ample LP（需音色库） |
+| 贝斯 / 合成器 | 合成器模拟 | Surge XT |
+| 混音 | 归零，需自己混 | 归零，需自己混 |
+
+**MIDI 是唯一权威**。音色取决于你装的插件和预置——仓库里没有插件状态，这一点见第 6 节。
 ## 3. 步骤 ⑤：Audacity 混音
 
 ### 导入
