@@ -20,19 +20,19 @@ music/
 
 ---
 
-## 1. 两首曲子
+## 1. 三首曲子
 
-| | **House** | **Thrash** |
-|---|---|---|
-| 目录 | `house-demo/` | `thrash-metal/` |
-| 工程 | `house-124-fmin.rpp` | `thrash-190-em.rpp` |
-| 试听 | `house-124-fmin-preview.mp3` | `thrash-preview.mp3` |
-| 时长 | 5:31（331 s） | 3:23（202 s） |
-| BPM | 124 | 190 |
-| 调性 | F 小调 | E 小调 |
-| 小节 | 171 | 160 |
-| 轨数 | 13 | 6 |
-| MIDI 音符 | 13,916 | 18,001 |
+| | **House** | **Thrash** | **Menu** |
+|---|---|---|---|
+| 目录 | `house-demo/` | `thrash-metal/` | `classroom-menu/` |
+| 工程 | `house-124-fmin.rpp` | `thrash-190-em.rpp` | `menu-96-amin.rpp` |
+| 试听 | `house-124-fmin-preview.mp3` | `thrash-preview.mp3` | `menu-preview.mp3` |
+| 时长 | 5:31（331 s） | 3:23（202 s） | **1:40（100 s）** |
+| BPM | 124 | 190 | 96 |
+| 调性 | F 小调 | E 小调 | A 自然小调 |
+| 小节 | 171 | 160 | 40 |
+| 轨数 | 13 | 6 | 6 |
+| MIDI 音符 | 13,916 | 18,001 | 710 |
 
 ### 曲式
 
@@ -43,10 +43,55 @@ intro 16 | drop A 32 | break 16 | drop B 32 | jazz 16 | vocal 16 | drop C 32 | o
 Thrash
 intro 16 | verse 16 | chorus 16 | verse 16 | chorus 16
 | bridge 8 | solo 16 | sweep 16 | vocal 16 | chorus 3 16 | outro 8
+
+Menu（无缝循环）
+intro 8 | A 16 | B 8 | return 8
 ```
 
 ---
 
+### 菜单曲：放学后的空教室
+
+**设定**：玩家停在主菜单读选项，曲子要能无限循环，不能抓注意力，也不能让人不安到分心。
+
+| 项 | 选择 | 原因 |
+|---|---|---|
+| 速度 | 96 BPM | 规格 88–100 的上限，40 小节正好 100 秒 |
+| 调性 | A 自然小调 | 比 C 小调更暗，但又不像 D 小调那样沉 |
+| 和声 | Am – F – C – G，一小节一个 | 全曲只有这四个和弦，不堆色彩 |
+| B 段变数 | `Am – Bb – F – E` | 把 F 换成 **Bb（bII，那不勒斯和弦）**，这是全曲唯一"不对劲"的地方；结尾的 E 大三和弦带 G♯，是自然小调里没有的音 |
+| 配器 | 音乐盒 / Rhodes / pad / 贝斯 / 沙锤 | 高频交给音乐盒，但只到 C6；8 kHz 以上能量 -49.6 dB，久听不刺 |
+| 鼓 | 只有沙锤，力度 28–38 | 没有底鼓、没有军鼓，永远不会"砸"下来 |
+
+**织体怎么进**：
+
+```
+intro 8    pad + 音乐盒（每小节 2–3 个音），贝斯在第 7 小节悄悄进来
+A 16       Rhodes 和弦从 52 力度起，6 小节内爬到满；沙锤同步淡入
+B 8        音乐盒抬高一个八度（到 E6），和声换成 bII
+return 8   音乐盒退回 intro 动机，力度降到 58，无缝接回开头
+```
+
+**动态实测**（10 秒窗口）：
+
+| 时间 | 电平 |
+|---|---|
+| 0 s | -25.1 dB |
+| 10 s | -22.5 dB |
+| 20 s | -17.1 dB |
+| 30 s 起 | -15.4 dB（A/B/return 基本持平） |
+
+从 intro 到 A 是**三十秒的缓升**，之后一路平的。没有 drop，最大跨度 9.7 dB，且全部发生在乐器渐入过程中。
+
+**环境采样**（全部是程序合成的，不是外部素材）：
+
+| 文件 | 声音 | 位置 |
+|---|---|---|
+| `foley-chair.wav` | 椅子拖动 | 第 17 小节（A 段第一拍） |
+| `foley-chalk.wav` | 粉笔 | 第 25 小节（B 段第一拍） |
+| `foley-bell.wav` | 远处钟声 | 第 33 小节（return 第一拍） |
+
+生成方式见 `foley.mjs`：钟声是不谐和泛音 + 低通（模拟"远处"），椅子是带共振摆动的噪声，粉笔是几次极短的宽带脉冲。
 ## 2. 工作流（两个阶段）
 
 ```
@@ -91,8 +136,9 @@ Format:  WAV 24-bit PCM
 **只有 Node，不装任何乐器也能听到曲子**——听到的是合成器 sketch，不是最终音色。
 
 ```powershell
-cd house-demo      && node render-preview.mjs   # → house-124-fmin-preview.wav  (5:31)
-cd ../thrash-metal && node render-preview.mjs   # → thrash-preview.wav          (3:23)
+cd house-demo        && node render-preview.mjs   # → house-124-fmin-preview.wav  (5:31)
+cd ../thrash-metal   && node render-preview.mjs   # → thrash-preview.wav          (3:23)
+cd ../classroom-menu && node render-preview.mjs   # → menu-preview.wav            (1:40)
 ```
 
 - 只读 `.mid`，只用 Node 内置模块，**不需要 `npm install`**
@@ -144,6 +190,19 @@ ffmpeg -i synth.wav -i samples.wav -filter_complex "[0:a][1:a]amix=inputs=2:norm
 | Pad | -10.5 | C |
 | FX | -6 | C |
 | Break | -9 | C |
+
+### 电平与声像（Menu 6 轨）
+
+| 轨道 | Gain (dB) | Pan |
+|---|---|---|
+| Music Box | -3 | +18 |
+| Rhodes | -6 | -12 |
+| Pad | -9 | C |
+| Bass | -4 | C |
+| Shaker | -14 | -25 |
+| Foley | -8 | +10 |
+
+菜单曲不要压太紧：`Compressor` 用 1.5:1、`Limiter` 天花板 **-3 dB**，留出动态余量。
 
 ### 电平与声像（Thrash 6 轨）
 
@@ -222,11 +281,11 @@ GP8 导入：`File → Import → MusicXML`。
 
 ### 插件（必须）
 
-| 插件 | House | Thrash |
-|---|---|---|
-| MT-PowerDrumKit | 鼓 | 鼓 |
-| Ample Guitar LP | 强力 / 闷音 / 爵士 | 节奏 ×2 + 独奏 / 扫拨 |
-| Surge XT | 贝斯、和弦、主旋律、Clav | 贝斯 |
+| 插件 | House | Thrash | Menu |
+|---|---|---|---|
+| MT-PowerDrumKit | 鼓 | 鼓 | — |
+| Ample Guitar LP | 强力 / 闷音 / 爵士 | 节奏 ×2 + 独奏 / 扫拨 | — |
+| Surge XT | 贝斯、和弦、主旋律、Clav | 贝斯 | **全部 5 条 MIDI 轨** |
 
 Ample LP 需要**独立的音色库**，只装插件没声音。
 
