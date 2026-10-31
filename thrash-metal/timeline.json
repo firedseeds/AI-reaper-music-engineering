@@ -1,0 +1,74 @@
+{
+  "bpm": 190,
+  "bars": 160,
+  "barSeconds": 1.263157894736842,
+  "seconds": 202.10526315789474,
+  "sections": [
+    {
+      "name": "intro",
+      "kind": "intro",
+      "startBar": 0,
+      "bars": 16
+    },
+    {
+      "name": "verse",
+      "kind": "verse",
+      "startBar": 16,
+      "bars": 16
+    },
+    {
+      "name": "chorus",
+      "kind": "chorus",
+      "startBar": 32,
+      "bars": 16
+    },
+    {
+      "name": "verse 2",
+      "kind": "verse",
+      "startBar": 48,
+      "bars": 16
+    },
+    {
+      "name": "chorus 2",
+      "kind": "chorus",
+      "startBar": 64,
+      "bars": 16
+    },
+    {
+      "name": "bridge",
+      "kind": "bridge",
+      "startBar": 80,
+      "bars": 8
+    },
+    {
+      "name": "solo",
+      "kind": "solo",
+      "startBar": 88,
+      "bars": 16
+    },
+    {
+      "name": "sweep",
+      "kind": "sweep",
+      "startBar": 104,
+      "bars": 16
+    },
+    {
+      "name": "vocal",
+      "kind": "vocal",
+      "startBar": 120,
+      "bars": 16
+    },
+    {
+      "name": "chorus 3",
+      "kind": "chorus",
+      "startBar": 136,
+      "bars": 16
+    },
+    {
+      "name": "outro",
+      "kind": "outro",
+      "startBar": 152,
+      "bars": 8
+    }
+  ]
+}

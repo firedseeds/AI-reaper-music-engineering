@@ -1,0 +1,29 @@
+# 依赖：用 `npm install` 恢复，不入库
+node_modules/
+
+# 每次渲染都会重新生成的成品与试听
+*-preview.wav
+*-preview.mp3
+house-124-fmin.wav
+thrash-190-em.wav
+
+# 音高对比用的临时片段
+pitch-*.wav
+pitch-*.mp3
+crusher-test.wav
+scream-test.wav
+mix.wav
+inst.wav
+vox.wav
+
+# REAPER 的峰值缓存
+*.reapeaks
+Backups/
+
+# 编辑器和系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc

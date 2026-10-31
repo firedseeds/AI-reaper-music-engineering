@@ -1,0 +1,56 @@
+{
+  "bpm": 124,
+  "bars": 171,
+  "barSeconds": 1.935483870967742,
+  "seconds": 330.9677419354839,
+  "sections": [
+    {
+      "name": "intro",
+      "kind": "intro",
+      "startBar": 0,
+      "bars": 16
+    },
+    {
+      "name": "drop A",
+      "kind": "drop",
+      "startBar": 16,
+      "bars": 32
+    },
+    {
+      "name": "break",
+      "kind": "break",
+      "startBar": 48,
+      "bars": 16
+    },
+    {
+      "name": "drop B",
+      "kind": "drop",
+      "startBar": 64,
+      "bars": 32
+    },
+    {
+      "name": "jazz",
+      "kind": "jazz",
+      "startBar": 96,
+      "bars": 16
+    },
+    {
+      "name": "vocal",
+      "kind": "vocal",
+      "startBar": 112,
+      "bars": 16
+    },
+    {
+      "name": "drop C",
+      "kind": "drop",
+      "startBar": 128,
+      "bars": 32
+    },
+    {
+      "name": "outro",
+      "kind": "outro",
+      "startBar": 160,
+      "bars": 11
+    }
+  ]
+}

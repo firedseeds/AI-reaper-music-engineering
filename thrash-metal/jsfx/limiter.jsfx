@@ -1,0 +1,30 @@
+desc:DSH Master Limiter
+// Brickwall-ish peak limiter for the master bus: fast attack, slow release,
+// and a soft knee so the drops do not clip after summing 13 tracks.
+
+slider1:-1<-24,0,0.1>Ceiling (dB)
+slider2:80<10,500,1>Release (ms)
+
+@init
+env = 0;
+gain = 1;
+
+@slider
+ceiling = 10 ^ (slider1 / 20);
+releaseCoef = exp(-1 / (slider2 * 0.001 * srate));
+
+@sample
+peak = abs(spl0) > abs(spl1) ? abs(spl0) : abs(spl1);
+
+peak > env ? (
+  env = peak;
+) : (
+  env = env * releaseCoef + peak * (1 - releaseCoef);
+);
+
+target = env > ceiling ? ceiling / env : 1;
+// smooth the gain to avoid zipper noise
+gain = gain * 0.85 + target * 0.15;
+
+spl0 = spl0 * gain;
+spl1 = spl1 * gain;

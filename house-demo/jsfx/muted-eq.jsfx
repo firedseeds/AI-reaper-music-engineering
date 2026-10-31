@@ -1,0 +1,95 @@
+desc:DSH Muted Guitar EQ
+// Simple three-band shaping EQ for palm-muted guitars:
+// low shelf boost, mid dip, high shelf cut.
+// No dependencies; coefficients are RBJ audio EQ cookbook biquads.
+
+slider1:6<-24,24,0.1>Low shelf gain (dB)
+slider2:120<40,600,1>Low shelf freq (Hz)
+slider3:-3<-24,24,0.1>Mid dip gain (dB)
+slider4:800<200,5000,1>Mid dip freq (Hz)
+slider5:-6<-24,24,0.1>High shelf gain (dB)
+slider6:3500<1000,14000,1>High shelf freq (Hz)
+
+@init
+pi = 3.141592653589793;
+
+// per-channel state, one set per band
+// (EEL2 has no chained assignment, so each variable is set explicitly)
+lx1 = 0; lx2 = 0; ly1 = 0; ly2 = 0;
+mx1 = 0; mx2 = 0; my1 = 0; my2 = 0;
+hx1 = 0; hx2 = 0; hy1 = 0; hy2 = 0;
+rx1 = 0; rx2 = 0; ry1 = 0; ry2 = 0;
+nx1 = 0; nx2 = 0; ny1 = 0; ny2 = 0;
+px1 = 0; px2 = 0; py1 = 0; py2 = 0;
+
+@slider
+
+// --- low shelf ---
+A  = pow(10, slider1 / 40);
+w0 = 2 * pi * slider2 / srate;
+cw = cos(w0);
+sw = sin(w0);
+al = sw / 2 * sqrt((A + 1 / A) * (1 / 0.707 - 1) + 2);
+bt = 2 * sqrt(A) * al;
+lb0 =  A * ((A + 1) - (A - 1) * cw + bt);
+lb1 =  2 * A * ((A - 1) - (A + 1) * cw);
+lb2 =  A * ((A + 1) - (A - 1) * cw - bt);
+la0 =  (A + 1) + (A - 1) * cw + bt;
+la1 = -2 * ((A - 1) + (A + 1) * cw);
+la2 =  (A + 1) + (A - 1) * cw - bt;
+lb0 /= la0; lb1 /= la0; lb2 /= la0; la1 /= la0; la2 /= la0;
+
+// --- mid peaking dip ---
+A  = pow(10, slider3 / 40);
+w0 = 2 * pi * slider4 / srate;
+cw = cos(w0);
+sw = sin(w0);
+al = sw / 2 * (1 / 1.0);
+mb0 = 1 + al * A;
+mb1 = -2 * cw;
+mb2 = 1 - al * A;
+ma0 = 1 + al / A;
+ma1 = -2 * cw;
+ma2 = 1 - al / A;
+mb0 /= ma0; mb1 /= ma0; mb2 /= ma0; ma1 /= ma0; ma2 /= ma0;
+
+// --- high shelf ---
+A  = pow(10, slider5 / 40);
+w0 = 2 * pi * slider6 / srate;
+cw = cos(w0);
+sw = sin(w0);
+al = sw / 2 * sqrt((A + 1 / A) * (1 / 0.707 - 1) + 2);
+bt = 2 * sqrt(A) * al;
+hb0 =   A * ((A + 1) + (A - 1) * cw + bt);
+hb1 = -2 * A * ((A - 1) + (A + 1) * cw);
+hb2 =   A * ((A + 1) + (A - 1) * cw - bt);
+ha0 =   (A + 1) - (A - 1) * cw + bt;
+ha1 =  2 * ((A - 1) - (A + 1) * cw);
+ha2 =   (A + 1) - (A - 1) * cw - bt;
+hb0 /= ha0; hb1 /= ha0; hb2 /= ha0; ha1 /= ha0; ha2 /= ha0;
+
+@sample
+
+// ---- left ----
+x = spl0;
+y = lb0 * x + lb1 * lx1 + lb2 * lx2 - la1 * ly1 - la2 * ly2;
+lx2 = lx1; lx1 = x; ly2 = ly1; ly1 = y;
+x = y;
+y = mb0 * x + mb1 * mx1 + mb2 * mx2 - ma1 * my1 - ma2 * my2;
+mx2 = mx1; mx1 = x; my2 = my1; my1 = y;
+x = y;
+y = hb0 * x + hb1 * hx1 + hb2 * hx2 - ha1 * hy1 - ha2 * hy2;
+hx2 = hx1; hx1 = x; hy2 = hy1; hy1 = y;
+spl0 = y;
+
+// ---- right ----
+x = spl1;
+y = lb0 * x + lb1 * rx1 + lb2 * rx2 - la1 * ry1 - la2 * ry2;
+rx2 = rx1; rx1 = x; ry2 = ry1; ry1 = y;
+x = y;
+y = mb0 * x + mb1 * nx1 + mb2 * nx2 - ma1 * ny1 - ma2 * ny2;
+nx2 = nx1; nx1 = x; ny2 = ny1; ny1 = y;
+x = y;
+y = hb0 * x + hb1 * px1 + hb2 * px2 - ha1 * py1 - ha2 * py2;
+px2 = px1; px1 = x; py2 = py1; py1 = y;
+spl1 = y;

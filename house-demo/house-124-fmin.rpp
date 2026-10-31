@@ -1,0 +1,5489 @@
+<REAPER_PROJECT 0.1 "7.63/win64" 1760000000
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 0
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 100 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN "house-124-fmin"
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPO 124 4 4
+  PLAYRATE 1 1 0 -1 0 0.0025
+  SELECTION 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0
+  <MASTERFXLIST
+  >
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <TRACK
+    NAME "Drums - MT-PowerDrumKit"
+    PEAKCOL 16624256
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {027683F6-A8C5-59A4-6D8C-8A73519B9F84}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82CEA5F8-4D2F-A9D2-606D-D274B4DEDEC3}
+      IID 1
+      NAME "Drums"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9CF0A23-49F6-5E4B-0805-DB93A58BCF0C}
+      <SOURCE MIDI
+        FILE "house-drums.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Bass - Surge XT"
+    PEAKCOL 16750848
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1D20CCC8-0E10-1A38-1F64-7963E9D196FD}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD6AD24B-AD53-032B-7632-1775BF75C63C}
+      IID 1
+      NAME "Bass"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3EFDDE0C-B2DA-A736-CC7C-BE0997F30342}
+      <SOURCE MIDI
+        FILE "house-bass.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Stabs - Surge XT"
+    PEAKCOL 8453888
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {923A707B-DE69-BE1A-00F8-DFEC9FC35F09}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6A81DDE9-ADBB-82B7-B682-C16D8210B8C5}
+      IID 1
+      NAME "Stabs"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49C6D010-F979-6B24-1B5A-4C7E527607D5}
+      <SOURCE MIDI
+        FILE "house-stabs.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Power Chords - Ample LP"
+    PEAKCOL 8388736
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7B1B2164-7189-CC42-1066-455818E12F08}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C447B06-679C-84C4-2731-F25C1ADBADEC}
+      IID 1
+      NAME "Power"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7818CABF-AEF5-37EA-C79D-452A28F2D8F1}
+      <SOURCE MIDI
+        FILE "house-power.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Penta Lead - Surge XT"
+    PEAKCOL 16776960
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0B31EAB0-6494-1226-408B-8B89432D3F38}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C424B368-3105-BDDE-98EA-332FA68BE5CD}
+      IID 1
+      NAME "Lead"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {30B73B49-B26E-9C98-6E98-BC3ABAD4B597}
+      <SOURCE MIDI
+        FILE "house-lead.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Funk Clav - Surge XT"
+    PEAKCOL 16753920
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {89D1BABE-C09D-C619-4D34-EF95035AEA5D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A6A5C5FA-0B42-FA2A-A2C6-097A7B42EE30}
+      IID 1
+      NAME "Clav"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D7F94220-8985-59EB-02DB-4ADF62AFF924}
+      <SOURCE MIDI
+        FILE "house-clav.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Jazz Gtr - Ample LP"
+    PEAKCOL 11776947
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D0D5A09E-DC76-9DF7-9CD5-15D0766FD311}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {31A40490-5382-D775-A3DA-8348CAC69D31}
+      IID 1
+      NAME "Jazz Gtr - Ample LP"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0AEBC176-972E-66C4-4BEF-8C6A3053B0CF}
+      <SOURCE MIDI
+        FILE "house-jazz.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Muted Gtr - Ample LP"
+    PEAKCOL 8421504
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {286B5B02-7D27-83C9-A145-E17220159863}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/muted-eq.jsfx ""
+      >
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 330.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6534CF8-4C8F-153B-A23E-F490EEB82E66}
+      IID 1
+      NAME "Muted Gtr - Ample LP"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DA36DD31-2BEF-4FDB-548B-9D32ABE5648F}
+      <SOURCE MIDI
+        FILE "house-gtr.mid"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Clap (sample)"
+    PEAKCOL 16711680
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {75A5458B-3003-7801-237E-336185E945D8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 31.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3298487E-48BD-A41C-E940-10D4425D8A30}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7746A323-50FD-575A-E4DC-97CAE0220139}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 32.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E11A5EF-ED7B-C50B-4C23-5611B879DFEF}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9254F8CF-FBE0-1980-6AEC-357088668B9D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 33.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BBDBC107-4E9D-D9D8-3C12-378DA343F125}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C1490AD7-726F-EA42-F98A-A8C946A9E390}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 34.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A931EB3-A2E8-95B8-4939-D421647D4666}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {52A7229A-62D7-293F-3A1A-33D880473BF3}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 35.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2066BE82-A854-1D3F-5785-F24B8CD15A25}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {79689EAD-BCEA-DEEF-60D7-80EC23848668}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 36.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DCE212B8-A7D6-AB03-E570-927B4CF0C321}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2189D05-220C-CCB0-8351-4DEB987C610A}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 37.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {330C9796-66A3-6C09-F806-67C2F620E47C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A022355-28D5-C52E-F216-4DD7E4271AEB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 38.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7D6544BF-B3D3-05CB-8617-5C0B1FB8418E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4BA8E1A3-13EC-14EE-CD8E-B8951A16C7F8}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 39.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EF2EECBF-11AB-C1FF-E813-4DB17BDF8BC9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {32660BBA-F5DE-C209-552D-A69A8A0AC8A1}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 40.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2F381AF0-95FF-7CE1-B8FF-6FDF76416D50}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D4CDA6C-FC01-558A-441A-88D92E44BDA5}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 41.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CC93747E-921C-8481-C3F5-5DDC59211EF5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {21A4D91F-56A2-BFFE-A79E-AB97BB674FD9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 42.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2F131938-A81B-6FF4-AF22-21C98DF38FC1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1934BBB0-323E-91D5-4C2C-A72F331CBA47}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 43.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {56353A56-EA1D-7195-B762-28808B23B7DF}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F9F8E792-DBA9-58DD-F644-EEB5C914A2E7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 44.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BE78B473-6B07-2913-02A4-60E41FB36BFE}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31FE4284-CDB8-ADB8-795C-F1E8E89C2C13}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 45.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {973DDA01-DE08-B219-4B74-5938031EA57E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E0D4CCFE-00C0-1098-2153-2500C9C8C4C9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 45.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1A4645A4-1777-FC87-152C-21DC9BBE376C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5529A07-A035-FB31-B833-E214E1BC9E0D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 46.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A5F0B03F-B575-4356-8F82-1F74F8709EE9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {325029FC-EE45-F186-1ADA-B6613E10CB03}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 47.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1EE8791A-3892-42AE-0F73-5BA73C9566C1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35246369-E151-8278-5174-E0DB3A8F242F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 48.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {524C0D48-9574-5F28-656E-C591A6B5DEC9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {14DA8E59-1D03-CED7-2AB0-B1D1B6FE8269}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 49.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3413966A-C663-E645-6229-C526ACDEE738}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C64550F-3208-6BCA-A145-F973FF2391D6}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 50.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {492CDC0F-9D93-CEEF-CC3A-D155A5591EDB}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {76BBBBDF-9CE4-9922-C293-4D5B35B93A8F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 51.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2508A53A-F841-50B9-8597-55D11CBC927C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87542D80-3391-AF68-0783-CBBD868C8670}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 52.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {86826962-3C79-175A-1D98-2DA57115DA60}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E90093F-47EF-906D-00C7-6EAE5FF809C2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 53.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0C446682-20A3-0407-C808-77BEFA9E6BBF}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2FC4FB0D-B103-FE6B-1DCE-B21C46E6DC68}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 54.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D76AC98D-F254-0D97-7644-1732D5F953D6}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D4F2E66-89C6-B175-DC82-4FBFAD58FFBA}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 55.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {87FDAED3-2A63-E4F6-05FE-2FEB8D11D4C5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D97B393-87A0-0ADA-EBEC-5EFDB580B256}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 56.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {38F6E607-7143-168C-BB7F-55C72D9B0F51}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67EBE9D6-3FBF-4ADF-9C05-C6DB5F2047B0}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 57.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {319629D5-B4D8-C452-7C3E-2A6C948B6895}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FBDC27D1-4306-6567-ACE6-3525D30AB02E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 58.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {31A08891-6E10-896A-B861-89526DE04D33}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {837CEE39-D8A6-1664-86E6-D075C7EB7A9E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 59.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FAD57C4F-335F-19DE-F78F-F20EDD78EF2C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {266DC51A-69A7-7E09-4165-AD8642E17BCF}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 60.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0EF55660-2B07-F37A-28C6-C60DA7F55877}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9A6C45F7-364F-5E42-A738-B2EC8D271905}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 61.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2370D02C-7BD8-AFA9-1C37-7BEBB5A4288C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B08CB4A1-E6CD-FC4D-DBD4-F4DC04A7A507}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 62.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD02C65C-2481-ED93-34F6-C6B5841F3C64}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {762B2597-9FB4-9264-991D-4CDCE6D45F43}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 63.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {08FED86D-F871-0F38-AF0C-67863D183F76}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DBA2C0FA-DF34-B144-C0FF-BBD0AAC7CE78}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 64.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {31C108D9-90FF-3963-CFB0-00F0EEEF672C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2BC7CB64-A4CA-06E1-F713-32EA6C3F62AD}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 65.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AFC14C8D-F885-731A-871F-75DDEE95BF7C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3C48302D-042C-E60D-BF59-8E3CE5728F44}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 66.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8959A494-C1A3-279C-1387-3B10AD242BD9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {64579CA6-3EF7-C605-8951-A7A1C14661F6}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 67.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5CE907C-8F00-4A93-B79A-F010B55A3FF1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E13EB994-75E0-A271-9839-D3A05233A2F4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 68.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {66429332-A704-479C-3201-6A5C99990186}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {610E8752-BE67-4DE3-9449-0FF322DE9848}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 69.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0AEA0B3D-EAC2-559C-F01E-56EF2088E35F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6F9A52FE-60D4-C7D7-900B-8B0427642AA2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 70.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {19CF6386-9D8E-5409-2E3E-F46951376BF2}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1A71CBB-042F-05CC-A9E9-56B1DA4D57BC}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 71.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {827F1A81-6774-9406-9710-FED2B6925426}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {934ABDFF-8CC7-5DDF-6EBF-B6E05E8CC96D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 72.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC5C0225-C3CF-4015-406D-8EAE4177FB3E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1CA713BE-1559-3B65-8F75-B19631791E31}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 73.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {44D8FE0C-A320-6E5B-8BC3-42AE29C490CB}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33616FB8-ACC7-1E3D-7347-C42D27CC3968}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 74.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C892EE81-103F-8E69-338A-D8E274258AF8}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D1AA760C-7E8C-C397-6EC0-EC3DFA97B156}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 75.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {07B98B7D-C08B-85A9-B153-FAEA4F9254F6}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2A6452FA-B814-82C1-94F9-568D8ED4AA82}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 75.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {16448189-6457-4948-C55F-4F208AC2CE0C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {870A31E9-9FFD-C4D6-0C83-5052F06FB56A}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 76.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6A57B9BA-4302-2B03-E011-E5D5F5DF6772}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {58AB7DE5-566B-EF81-D01C-AFF2F6A4C4D3}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 77.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB47BFAA-FCEE-5B10-54CD-DAEA117E4F93}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {861F7597-53CB-6941-C1E7-6E00121B3751}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 78.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F26F5625-EF30-AF23-743F-C75A60AB0747}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3193D543-28FA-3C06-FF0E-3FD809804580}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 79.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {91DE0715-C77C-7988-6712-461966EABDA7}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C524047D-3E1E-3E33-62A2-96CC0007F4B1}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 80.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {25F55550-02F8-3315-D3E3-C2520463710B}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2ED8B9EE-2582-BC8F-F6F8-1FAB0262AE52}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 81.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D18FA180-EE9B-5A14-AD27-E2B156CA50B6}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72FE8D55-62AC-D135-9E9E-02C6086576A2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 82.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {68B90801-8BE1-2E30-AC8C-36AC9BDDFFDB}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1FBFFE6-11C7-844D-0958-A7F335643BF7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 83.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BEE427AF-7FD7-42B2-8C55-D68AA16C79F4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5C14E2C-A6E2-62A0-8722-3FDC01331242}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 84.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4C9C70B3-B233-377B-4527-DF72FDDB5A87}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {890D5395-A406-EC75-0DDC-5AB8AF7FA335}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 85.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD153EEC-30D7-211E-70EB-FDA2CA06A776}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1C07A5C8-2354-EFA0-ECD5-BC24D0717DA2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 86.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5F829718-816F-BDAD-2B76-4F88C2E5322D}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3A8068C4-C780-EBF7-FFDB-97D56A14C915}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 87.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9ED60712-F15B-256B-2A62-41A5DE32899C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F32E710B-8409-2B69-263F-8AB1D1754654}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 88.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BD8AF82-7068-6C2E-8D0C-7E79E474C832}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E47B5B57-BE00-7A75-E459-247910F702C9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 89.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0EC954AF-0B98-3167-A41A-1F355CAF95F6}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1DCD2DCC-CEAE-17E7-FE9A-66F6E77E29D6}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 90.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A8137DA6-297C-A2CA-6C22-1DCCE6033258}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {19748E70-7F32-2A6F-AD42-5E4E407FA004}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 91.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {19D8B9A6-3E00-453A-04B3-F669A797C64B}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ECEF899B-E86D-1E5E-52D0-743727FDB71D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 92.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E628C183-D7ED-5493-68EB-6DCFC58FFFA4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {349D61B8-C911-3A5C-C297-B5506E65ED77}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 124.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DA919D71-392E-0420-4190-D66EF5C59F52}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CBFD961E-2B73-A30C-3185-ADDD55888939}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 125.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4430114E-E338-DC1D-4474-1D179370CE96}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {93CDAD15-BE98-BB1C-887A-2555B409B96E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 126.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D426BCB5-0487-6804-A16B-304E026D1A46}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CDB21A21-9DBD-1DA5-1842-7FF4C1328777}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 127.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02D173FF-D77B-CE83-0616-C26D5BB30F6A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD1C862D-19FA-41D8-55DA-43AEBFD06216}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 128.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {765DEE9F-4A5A-34E5-BBC0-40D19015F57E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED0DBD6C-B677-9309-E99A-4BEA48220DE6}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 129.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {85793C2B-2874-FAD5-5F78-11AF95B31777}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E94CB100-71ED-AA66-4F4C-FB375A33E091}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 130.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {51917793-8349-F75C-264A-42FF30687185}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DF0EC311-0225-1727-AEB8-594E397FDF2C}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 131.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {424C4F48-8600-EBA6-E62F-3FA0941C2B36}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60E2C46A-6D24-CD23-6023-1BCCBD3F4975}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 132.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {85630B5C-6728-1ADC-20AA-30C7EA24EF98}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B4C87A12-CF6B-4A09-938B-81FD9A86E843}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 133.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {294DDAF8-500B-7660-CD4A-126DCFB9CD44}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D0238EC-09F2-AE35-98D7-4ECAC0553E19}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 134.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E30716BC-99A8-2B20-2F3F-FB440127DEBE}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3978FD1C-E617-808D-4297-A314690915F0}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 135.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04C0E96A-1FE5-AD81-D2D1-002C2826F03E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {153DBDA5-BE5A-AE41-D03E-BBB645E1B8D2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 135.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5870E239-06C8-E21E-ED01-A19FAB2ECBAC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {42AAD983-CD92-A241-E0A0-BD6159B25429}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 136.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE9E6039-5A34-E72E-9BDA-2E89DC394B2E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {335CA42A-152B-2411-4273-8C2C9C5F4375}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 137.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FDFB2E6B-7484-4A0C-ACCC-8BE8DDD62B5E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11F67495-B5C6-369A-931D-C932D818FAAD}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 138.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2F63C1EC-486A-EA3E-D0FE-7515F8E23C47}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2B05DAB-E19B-98F4-3A90-367422A2F27E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 139.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3733B2CE-71B7-590E-A337-C4D844859767}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D20280C-B3C9-9B8B-698C-68D1B9E90AEA}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 140.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D528C0C2-04C7-171B-139C-3EF4863401A8}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED75B819-E0D1-0F4B-1043-8F4A64AE53AE}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 141.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {74378C81-BDB8-E3FE-2B5B-8EDBAC782956}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A97E3680-CE9F-C6A1-2C34-611ADEC1F0A3}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 142.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F5712B38-4BC6-1DD3-30B1-DE9520105263}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {420E4751-D6C5-BDC6-A3D9-EA2DC20ED979}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 143.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E6C72AA-B5B8-10DD-04F9-F6EF8F0CE476}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8F107E0F-D38D-8F5B-1E3F-EF4D71524F29}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 144.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C213359-1CF0-7940-3199-7B7BA91351C9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AD30EC71-2F17-0A8F-0F71-4775934F9BE4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 145.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AA1B958D-ABD4-2D17-42CE-80B099BE94FC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4EB84D02-1BC6-06A3-9885-D189DC15A378}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 146.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CD461F3C-F7EB-0595-4A8C-2EA80C4297AC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4501053E-9DF6-2E06-BAB1-E0BAEE690069}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 147.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {403B1893-31DD-48B3-3B29-54693D6E0628}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E53C7CD0-4507-541B-FFB1-E08EFC55897B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 148.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C0FF97C0-5768-DFB7-CEDF-11F879AC1227}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {93C158FA-DC73-7F1E-D937-A3DF512309F9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 149.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE3DD226-7BC2-9648-1D29-4A08684C554A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {167334F6-48B8-AD5C-34A7-23284115C1AB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 150.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6D1B4EC6-727C-D626-9183-70E5D8D55AA7}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {19C0ED73-C9FE-AA02-D95C-B88EC8641619}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 151.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {40C1CF1C-9380-4368-444F-1137380B5053}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A1AA6BE3-34CA-DE74-9617-4622521D6BC9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 152.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {574AF103-D1C8-E1C6-CC4F-D846EEB3406A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00D0183A-6638-1AD1-F6D0-B8884FA8DB08}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 153.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3DA8A357-6560-03A6-7814-C4DAE1FEF716}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {800139DC-E2B5-810D-9F02-CD5D3BA2CC88}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 154.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F9A91E26-876F-CE33-515F-C861D924CF4F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DB780CF-E5F6-269C-0D06-044CF6853FB2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 155.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6DD4D364-326B-3010-487E-279A715C4613}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {482604AE-6309-93B8-4E9D-690CFEFF63C8}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 156.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8D2470CE-10FB-129E-5EC8-DF1E36E562FE}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3290EEFD-9DD8-580C-98E0-FD40460D6ADB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 157.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {566A4F33-721A-B0AF-1299-8736BE4B385D}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DFD4A4D0-F716-9FF2-6C6A-DB39D94BA4E5}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 158.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {745AF7BE-2AB8-D308-98E6-52E1B1838858}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {538ABA93-BB1F-7277-DE84-332342DCCD2B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 159.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {668ABDF8-8439-2B65-FA46-F6A4581B24DB}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DAF03F5A-D988-2B99-17A3-31D96436C179}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 160.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6D253BB-04F7-546D-DA83-FF3A323C340F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2815E1DD-7D5D-89B6-2EE5-F11F35667EB0}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 161.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {16D83595-5259-C9EB-A1AA-D0D45F2261B5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E8BF393F-DE11-BC18-7089-7A7BDEAA0AFF}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 162.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DD4AF477-E9A4-4E31-E9D6-563B4BD558B4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC86B31A-985E-2BB5-8025-B76A34B82A77}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 163.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A50298AD-103F-C994-4F1B-B3520E63884F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6942AE4C-2B6F-3AAE-515C-0DE17655C22F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 164.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {866B62BF-335D-F12E-BC52-E02058791CF5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C3798383-4A19-602A-6316-D639B4EB5F2B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 165.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AEBB60FC-0160-B126-2BF9-7CC974B48FC0}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {05CD5053-C60E-22DF-2CBF-4D3261BF06E6}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 165.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C253A109-A445-9919-38E9-38426111509A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {952A6332-5A4B-C7D2-7292-8ADE1831444B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 166.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94ABB056-6F7A-F043-1C19-19463BAD92B7}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {081697D9-D528-4E74-7789-89CDF3A095FB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 167.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DC38510A-BF43-7E80-4561-B5651B4BA7F9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DCFFA6A7-1E5B-7C18-68A4-5B519FA996C3}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 168.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7240F3C-64FC-9C0E-7179-C4ABD5861EDC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {04324937-6642-98DB-7A96-AEC6769EC040}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 169.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {95C74907-8E5D-3F28-222E-3F9CA77A8A54}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A734E36C-834D-7E17-D036-7E40B93E3736}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 170.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A8896D46-0813-1D1D-B5E5-EE4CB44896F1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {44770EE3-4112-A99A-D5F5-20E5BD42D35C}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 171.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C9EDDB1-A9AD-0886-E42E-E27511DB1331}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ADF5637E-86BF-DCE9-D51E-B6870D4D211C}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 172.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04D456AB-B6F2-3DE9-91F5-201DFEAFC9E3}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EDD94F58-A48A-BB66-0469-2828B6775DB4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 173.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8E7AB661-643A-5B0D-BCD3-006F7CCC4464}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {83C60482-1B37-7FF2-3FBF-BBC5F122BC47}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 174.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A7CEB3F0-E398-8311-D84C-98D933352350}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DA03C1C-3C7B-7E39-E0E7-608CBED0C067}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 175.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D5E2E179-568A-E111-E7B5-598133E1B9F9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12C2F68B-B7E7-627C-38B8-17D9CF2FE6EE}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 176.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E1B4A48-E009-BBA5-2672-55FA98F30F24}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {00638262-112B-31C1-14F4-A9EB833C1B30}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 177.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {15DBA448-D086-BDBF-0A57-A1736FB94F9E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7E32AF28-79F5-503A-8EF2-0BCA4051CC6A}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 178.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {81D8780D-62BA-ADE3-373B-A167C4FABCF3}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {138221A5-CE80-0E07-EA62-F675952645EB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 179.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD8A9CF0-1B30-6EF8-6648-373A63F6C352}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C7169FEF-E626-D606-AD8A-52AC501459E5}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 180.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A328F2F1-5C7D-7598-A313-AD9D70C97B30}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E1D5043B-75EC-4DAA-9148-644330186D0D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 181.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {54047C30-35AC-AC81-4CB3-44E41C23B9AE}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7BAB2230-73A6-4401-2B2C-53C3793A6311}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 182.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6C54DEB9-C05D-1690-0939-250B6A641117}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C272B57-0EF9-1121-E7A1-B41079EE9DF3}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 183.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E67E170D-FF29-6BE1-AB70-569033E215B0}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {70BD7384-F659-1D86-7BCC-1D2194B5AD8B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 184.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8570D8A2-91DA-8034-856D-F629F78634B4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2D196387-33AE-0290-292C-B5DFA538B8CE}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 185.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0DF35B3-456A-3572-A4C0-F40FC2CB7B07}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D2C7F61B-1CEA-E82F-6F11-61A36D9A29CE}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 248.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4119EB9-47C5-7151-E153-D9970C3F2055}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {215ACDFE-16D9-D9A7-B501-98E68C8E58B7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 249.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CEACE7FA-E964-DED0-B6DD-772611553F0D}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2C483CFD-52C6-8B41-6524-2236A716288B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 250.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {14BC5173-D59D-CF43-E7C0-A45914EDA186}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C88EFF07-5C69-9650-7F9C-ABDA8E0CD993}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 251.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F9394B41-792B-BDD8-46C2-8C83C46D613E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {222C96B1-94CB-EBCD-E59A-56A4DEF88344}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 252.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F2DA89F9-6B4B-CB57-4962-67CC54C95B83}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96644CBF-0131-467C-E1B0-0ACDCCF411E9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 253.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {669053CA-2DA1-EC96-0E06-48C36395D323}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B4205F35-55C1-B2F6-457A-E21594D39B52}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 254.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2A4D27A-AED4-A939-0C42-C66AFB57570F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F58795F9-0205-00D4-B11A-50D12558D0B9}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 255.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A1A78606-D5F5-A250-B066-B49088678D57}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {988ADE6E-9382-4FE3-DFD1-B7471AF64B67}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 255.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D7226618-5124-1C27-13C2-1AD62C48410E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1ECADF8-9D83-86C0-4DB6-8869D5F3A719}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 256.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6B167AE9-6AAF-3F35-9387-D1D0E7B3B0BA}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {46A187CE-FEFE-B90C-8F86-2F8E67C0C156}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 257.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7973ABFC-8EE7-08AD-A1C9-E4451CD9672F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9ED06BF7-17D3-42AC-9A72-172BEC76D50C}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 258.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C5B5366C-FC23-1838-BFD8-85EEBD2FCB7E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CBF8766-BC90-521A-4E53-E2C5D30F2D6F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 259.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E9585282-F1D4-88B8-B38A-1B4473595EF1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1BA9094A-D80B-12B9-7677-D8A2DA0D6B3F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 260.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A5A5A0C4-B14C-C108-6616-46E208F4424A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCB3619B-08FD-8989-47A7-186345E41E9A}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 261.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2540EC4F-AD8A-506C-EE77-B9DA0967DC6F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C001EA5B-556E-AE97-C451-82F4880FB1E1}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 262.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {04E48F49-2635-8E77-B658-DE7E508DDC7C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {02231321-15A5-EFAC-E48A-B41104DA65A4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 263.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B6E917E9-ECDA-4D2D-3200-E05ACFF4CA42}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8595DD8-285B-F9E4-932A-47D5A8BD5B20}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 264.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2BAD03CF-45C9-BDF0-0EAB-09CF9A70B2A5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D5ED503-D2FC-1257-A8DF-CB7E8EE8A4D0}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 265.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F2B7DB42-8FEF-DB00-A80D-5D6396BDB647}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2974C7D6-2BC1-E84F-FD57-645F70FD2972}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 266.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {114A669C-551C-131C-E1B5-82D4EFEF581C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8569B8C8-3C3B-74A1-F2A9-E07C4AFF38CC}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 267.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {797543C7-DBEF-AAE0-5893-3237550B6D0E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7B8A4FC0-760E-E276-5489-6705C0BBE5FD}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 268.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93DED8DB-2216-F5EB-A87C-F4739F1751E9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {43FF234F-532D-CA54-797B-955E44EDC741}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 269.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E57B008-CC8D-35CC-C8AD-24CA2983601A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {90FA4C38-D6F3-399A-DB6C-B97ADCF33993}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 270.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FF14E2FA-F1EF-71CB-B8E8-E6865BD98B95}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C79B209F-C05E-6604-0B56-1EE4E955320B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 271.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5569B3FC-4B73-030C-875B-B6484F20A1E8}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7F84C52A-428C-7502-BAB8-935E2ACCDDA4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 272.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {277BAEBD-3600-D3B4-1644-A9DB76B52D46}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1AC8F76F-2E19-D049-852A-772AB5BBB1AE}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 273.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {96C0FCE0-581E-B484-39E3-0E92557A5041}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67EEBB72-D117-2F8E-637E-ECADE0A907AD}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 274.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {30FC2217-D050-7853-5C4A-11EDA5C23AD2}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5CAC9A6-BE2C-807C-A640-F6706D7EDE6E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 275.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7FDDB97-0254-C5C5-FDCB-1EE54E6A00C1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BA09B0BA-1FD0-8087-4BA6-75859E845A44}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 276.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1DDD32E5-1FCB-130A-0A2E-B92DA39B5F3F}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2FD8CF6A-D6E3-F053-4C23-76DBE17DC575}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 277.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {53A17E94-9E9C-13EE-31E4-FD3FDEF5FDD0}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A6D71FF-38EA-A021-6095-6B7D6ABDE370}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 278.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {41510534-D78C-30DB-08C5-9EE267DFE3DC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B95864E1-0FAA-E40B-A03D-BB97B8962D5F}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 279.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0460FDBA-0A22-2CDD-AECF-78657BF402D4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {108A8660-E916-ED7E-120C-22881DB7516D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 280.161290
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CC9B44F8-5D4C-B021-67E1-A09FF18D49A3}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06E6D084-F066-CED3-C037-79D0700089E4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 281.129032
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D158039A-9EF7-D6DA-6EB6-CA5A48B1EA48}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0CA5734-CC2D-4A02-9636-0390479C4A9B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 282.096774
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93D681C6-ADDD-4E39-1587-FB1DE3416519}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49FD132C-F9C8-2C90-2AC1-3B7E0D0E7586}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 283.064516
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2575AD8F-4372-CF4A-BDF6-3CC6DB757DBB}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A703135-6275-761A-38F4-F9F1FEC29E84}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 284.032258
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AE767478-6DD0-7FA3-5485-76F1DA54220C}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4F2C65E9-1B9F-99CB-0D32-7E7F6B93B4FB}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 285.000000
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {24D312E0-7333-91D1-7521-D056A5BC62D4}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {86F82067-660F-17BE-C80D-BB31E43920DC}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 285.967742
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3C211FA3-A04A-6A7F-8FC4-0072EE67FED7}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40415FBE-CE6D-033F-8CA2-E54C9271E953}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 286.935484
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7ADA52BD-2239-5725-DD0D-9D5E3B104C44}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FFEB772-9717-EC69-E35D-48FD96E01BE1}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 287.903226
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02863840-8A84-6E7B-81A5-68E09F1D8DCC}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7582674E-DEDC-05FA-681D-E4CCCF6B6466}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 288.870968
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4E93BBC6-3327-88C8-3973-5AFC9DB152A1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9B33BF33-156E-2052-D0B8-99A8DB2FECB7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 289.838710
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49BFBA4B-D6D4-7F00-3DC3-9F500755F5E1}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6918D8AC-4C63-652A-9443-E80C44317CB7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 290.806452
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9DDB373F-149B-ED69-8446-182EF91051F9}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0FD2A632-74C1-1ACE-B053-1F33ABC325C5}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 291.774194
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {08D4D67A-0F92-E1EE-8AB0-E7EEB976EEBD}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DDB50BDC-0EA8-F697-33D7-64CC692567D2}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 292.741935
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6317FC64-7BC3-5206-C19C-8138CDA5DE32}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {42998552-48E0-F8DD-EDBD-5C93349EC149}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 293.709677
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {50C5BBE9-C55B-A8F9-1602-1909DE03A039}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DB2598AA-8032-EBD1-867D-3CEBB19E8762}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 294.677419
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BFE043B7-5B28-22C7-17D9-7C27486BA406}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {65FEFF91-F1E6-85CC-505C-3009DD1B4BFD}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 295.645161
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {29ED1056-0009-CF7E-E098-A045E6F52BDD}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8568F923-38FD-78E2-8203-D8415D0630E7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 296.612903
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2BE1262F-7120-5178-0327-346F5C5AB116}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E28CAB9-CE51-BF1E-BECD-1C7B5FB72440}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 297.580645
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C2EEBC4D-C480-1046-C1AC-1202C4B40857}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {16B5984B-7F94-9017-1597-9DB7F54AD962}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 298.548387
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3B7DE50B-9C22-654E-3324-B8AACD163111}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8D5DA1D7-39E6-BB54-F8F3-1B588D74FE9D}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 299.516129
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8DC8B48B-A0C0-E483-C998-507F6F27422E}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C0013D23-754B-F8DA-7B53-70186B824945}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 300.483871
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0500302F-E7A7-B02F-094B-B84673A270E2}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8C9C0C0-7F7E-73FC-322D-AE0A05E4877B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 301.451613
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0E4687DE-CE33-D9C6-A147-08F8FB7C379D}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {501D70FC-D6D2-D6B1-E947-E4C2C39A78A4}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 302.419355
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3C4FB084-FEB5-4243-2116-AA7A4FD7834B}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85922D22-0142-6BEC-4B61-4973BD09875B}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 303.387097
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {933AE9B1-765F-D3F1-2682-DF0AE5149BEF}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C13FAC3C-6477-8C7A-87BB-3F1B82A31AAC}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 304.354839
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0D8DC605-B68F-E58F-7813-930A7E91E793}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {41983078-9895-525F-A670-27379619067A}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 305.322581
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE8F4F23-B79B-1926-D70E-98D5357B5AD5}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F46AAC6F-EEA2-B762-BB0F-757EBCC01659}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 306.290323
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93677C49-C36D-1DE2-01AF-E93DFF2F76BD}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A2994DE-26C4-F688-C964-26400FD96F9E}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 307.258065
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {19999A77-42D0-6870-AF97-DA25A94CA715}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CB6347D6-DF0F-9EBD-2EED-D51CF4D9D2A7}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 308.225806
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A7070C6C-A817-73CE-162A-247E716A052A}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {04A6FAC6-5C7A-AC6A-EBAA-72F7E80C4AF1}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 309.193548
+      SNAPOFFS 0
+      LENGTH 0.606780
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE553C34-0B85-0B8F-43F5-1F7E220F75A0}
+      IID 1
+      NAME "clap"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B94BEBCB-265D-0607-E9AB-AED9ECEF6875}
+      <SOURCE WAVE
+        FILE "clap.wav"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Pad (pack)"
+    PEAKCOL 3342387
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E295F269-1397-532B-BCA5-480182C711A0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 0.000000
+      SNAPOFFS 0
+      LENGTH 30.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {736DB9C5-1AAD-D580-F6D1-060E7F193BA4}
+      IID 1
+      NAME "pad intro"
+      VOLPAN 0.26 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7C94DEC1-148F-5660-6F0A-C4F58E39ACC7}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 30.967742
+      SNAPOFFS 0
+      LENGTH 61.935484
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {46EAC042-E85B-9DED-4B4D-8C58A48C7439}
+      IID 1
+      NAME "pad drop A"
+      VOLPAN 0.15 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC0C926F-C5C4-D2CE-B665-53E2C67034F5}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 92.903226
+      SNAPOFFS 0
+      LENGTH 30.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C90C52E1-CA48-F8C7-4F9F-F22AB09E8D9C}
+      IID 1
+      NAME "pad break"
+      VOLPAN 0.3 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE7F835C-C6B2-F607-7FCA-5DE2CE6BC059}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 123.870968
+      SNAPOFFS 0
+      LENGTH 61.935484
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ECD7F1CC-A1C5-57F1-9C7B-0175B810D789}
+      IID 1
+      NAME "pad drop B"
+      VOLPAN 0.15 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3F2E863-25E5-E5DD-0F5C-D1C7ECEA10F4}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 185.806452
+      SNAPOFFS 0
+      LENGTH 30.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CE32238E-EF56-D830-EB71-3DA4D12BE313}
+      IID 1
+      NAME "pad jazz"
+      VOLPAN 0.26 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {058B78BA-7F0E-E260-7B5B-13A2F712C214}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 216.774194
+      SNAPOFFS 0
+      LENGTH 30.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3D84B4E0-FC48-8DA7-6AED-C7F87F93FDA1}
+      IID 1
+      NAME "pad vocal"
+      VOLPAN 0.26 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B78BE8CA-DF88-31CB-44C5-CFBE674AA4FA}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 247.741935
+      SNAPOFFS 0
+      LENGTH 61.935484
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1242B65E-9E90-848B-EDFF-8AC8CB5368B4}
+      IID 1
+      NAME "pad drop C"
+      VOLPAN 0.15 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F6D50BBD-3F47-B7D6-E93E-49532F4C2CD2}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 309.677419
+      SNAPOFFS 0
+      LENGTH 21.290323
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02EFAB2C-4F45-3122-2EC2-B07BF0742051}
+      IID 1
+      NAME "pad outro"
+      VOLPAN 0.26 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFEBCEAB-59C1-24A5-9C5C-3C6A426A2D3A}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\Pads\Wash_Pad_7A.wav"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "FX (pack)"
+    PEAKCOL 13382400
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {489A66C6-9FAF-CF80-8EFE-855ADA5143B1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 28.531619
+      SNAPOFFS 0
+      LENGTH 2.436122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {44FA36D8-4BFD-7B71-1B67-8AB571C629AB}
+      IID 1
+      NAME "riser drop A"
+      VOLPAN 0.48 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5EDC2F6-B5A6-689D-A986-F7FF5879E165}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Rise_3A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 30.967742
+      SNAPOFFS 0
+      LENGTH 4.525782
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CAE50F80-1A83-8AF2-1FE0-5FDA29FBB607}
+      IID 1
+      NAME "impact drop A"
+      VOLPAN 0.42 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1579953E-06F8-C3B1-0A14-5599CFEA01FC}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Boom_4A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 121.434845
+      SNAPOFFS 0
+      LENGTH 2.436122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {20D60476-05A2-E01A-30C2-1914B008C635}
+      IID 1
+      NAME "riser drop B"
+      VOLPAN 0.48 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F81647D5-F201-E14B-9692-B26F619D8C01}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Rise_3A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 123.870968
+      SNAPOFFS 0
+      LENGTH 4.525782
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE5F77C6-B8F2-38C3-4975-F7EA2C60E9F4}
+      IID 1
+      NAME "impact drop B"
+      VOLPAN 0.42 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC20F6AA-0F2E-67E7-77EA-A86352AEBC3D}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Boom_4A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 245.305813
+      SNAPOFFS 0
+      LENGTH 2.436122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CF509DD8-B0DB-B6A3-DB47-92EEC90D53E8}
+      IID 1
+      NAME "riser drop C"
+      VOLPAN 0.48 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CBD22FBD-2E3A-E5B0-F8F5-6E89A4BA4B3C}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Rise_3A.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 247.741935
+      SNAPOFFS 0
+      LENGTH 4.525782
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {210BF76E-1BED-204C-DE27-5B3867C7ACC1}
+      IID 1
+      NAME "impact drop C"
+      VOLPAN 0.42 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E7C20019-54C5-C226-DF56-8FA630194EE6}
+      <SOURCE WAVE
+        FILE "blu-mar-ten-main\FX\Aura_Boom_4A.wav"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Break (pack)"
+    PEAKCOL 4473924
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {82CD3E72-8210-FFFC-5700-E88A6E521AA5}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 92.903226
+      SNAPOFFS 0
+      LENGTH 30.967742
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6904FFD-8823-1604-868E-655BCB5D5DE2}
+      IID 1
+      NAME "jungle break"
+      VOLPAN 0.34 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2E166609-53E6-EF36-8E3F-F0B8B581AD5A}
+      <SOURCE WAVE
+        FILE "break-124.wav"
+      >
+
+    >
+  >
+
+  <TRACK
+    NAME "Vocal (TTS)"
+    PEAKCOL 10027136
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F19CE7C9-3CA6-AE32-ECB0-92455D55FC18}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <JS DSH/build-filter.jsfx ""
+      >
+    >
+    <ITEM
+      POSITION 216.774194
+      SNAPOFFS 0
+      LENGTH 2.712018
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9C32B055-F1AC-05B9-8A87-D26FB79C8D75}
+      IID 1
+      NAME "vox1"
+      VOLPAN 0.85 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13FDF725-383B-13BE-9A07-92CC3D3BC0B5}
+      <SOURCE WAVE
+        FILE "vox1.wav"
+      >
+
+    >
+    <ITEM
+      POSITION 232.258065
+      SNAPOFFS 0
+      LENGTH 2.136009
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C3CFE5A8-D7B1-4FA6-BB5A-30DEC0B8A524}
+      IID 1
+      NAME "vox2"
+      VOLPAN 0.8 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B187E2E7-9FC5-11B5-5D54-CB58B0B37155}
+      <SOURCE WAVE
+        FILE "vox2.wav"
+      >
+
+    >
+  >
+
+>
