@@ -9,7 +9,7 @@
 
 ```
 music/
-├── MUSIC.md              ← 本文件
+├── README.md              ← 本文件
 ├── midi-reader.mjs       共用的 MIDI 解析器
 ├── package.json          @coderline/alphatab
 ├── house-demo/           5:31 house
@@ -287,7 +287,7 @@ node render-preview.mjs
 
 ```
 music/
-├── MUSIC.md
+├── README.md
 ├── house-demo/
 │   ├── house-124-fmin.rpp / .mp3
 │   ├── house-*.mid              7 条 MIDI（drums/bass/stabs/power/lead/clav/gtr）
