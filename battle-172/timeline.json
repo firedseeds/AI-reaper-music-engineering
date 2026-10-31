@@ -1,0 +1,28 @@
+{
+  "bpm": 172,
+  "bars": 72,
+  "barSeconds": 1.3953488372093024,
+  "seconds": 100.46511627906978,
+  "sections": [
+    {
+      "name": "intro",
+      "bars": 8,
+      "startBar": 0
+    },
+    {
+      "name": "A",
+      "bars": 32,
+      "startBar": 8
+    },
+    {
+      "name": "B",
+      "bars": 16,
+      "startBar": 40
+    },
+    {
+      "name": "A2",
+      "bars": 16,
+      "startBar": 56
+    }
+  ]
+}

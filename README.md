@@ -10,29 +10,31 @@
 ```
 music/
 ├── README.md              ← 本文件
-├── midi-reader.mjs       共用的 MIDI 解析器
+├── midi-reader.mjs        共用的 MIDI 解析器
 ├── package.json          @coderline/alphatab
 ├── house-demo/           5:31 house
-└── thrash-metal/         3:23 thrash metal
+├── thrash-metal/         3:23 thrash metal
+├── classroom-menu/       1:40 菜单曲
+└── battle-172/           1:42 战斗曲（DnB）
 ```
 
-整个文件夹 **40 MB / 100 个文件**。采样包已裁剪到只剩工程实际用到的 3 个文件，原始包（702 个文件、381 MB）不在此目录。
+整个文件夹 **59 MB / 140 个文件**。采样包已裁剪到只剩工程实际用到的 3 个文件，原始包（702 个文件、381 MB）不在此目录。
 
 ---
 
-## 1. 三首曲子
+## 1. 四首曲子
 
-| | **House** | **Thrash** | **Menu** |
-|---|---|---|---|
-| 目录 | `house-demo/` | `thrash-metal/` | `classroom-menu/` |
-| 工程 | `house-124-fmin.rpp` | `thrash-190-em.rpp` | `menu-96-amin.rpp` |
-| 试听 | `house-124-fmin-preview.mp3` | `thrash-preview.mp3` | `menu-preview.mp3` |
-| 时长 | 5:31（331 s） | 3:23（202 s） | **1:40（100 s）** |
-| BPM | 124 | 190 | 96 |
-| 调性 | F 小调 | E 小调 | A 自然小调 |
-| 小节 | 171 | 160 | 40 |
-| 轨数 | 13 | 6 | 6 |
-| MIDI 音符 | 13,916 | 18,001 | 710 |
+| | **House** | **Thrash** | **Menu** | **Battle** |
+|---|---|---|---|---|
+| 目录 | `house-demo/` | `thrash-metal/` | `classroom-menu/` | `battle-172/` |
+| 工程 | `house-124-fmin.rpp` | `thrash-190-em.rpp` | `menu-96-amin.rpp` | `battle-172-amin.rpp` |
+| 试听 | `house-124-fmin-preview.mp3` | `thrash-preview.mp3` | `menu-preview.mp3` | `battle-preview.mp3` |
+| 时长 | 5:31（331 s） | 3:23（202 s） | 1:40（100 s） | **1:42（100 s）** |
+| BPM | 124 | 190 | 96 | **172** |
+| 调性 | F 小调 | E 小调 | A 自然小调 | A 小调 |
+| 小节 | 171 | 160 | 40 | 72 |
+| 轨数 | 13 | 6 | 6 | 5 |
+| MIDI 音符 | 13,916 | 18,001 | 710 | 2,172 |
 
 ### 曲式
 
@@ -46,6 +48,9 @@ intro 16 | verse 16 | chorus 16 | verse 16 | chorus 16
 
 Menu（无缝循环）
 intro 8 | A 16 | B 8 | return 8
+
+Battle（无缝循环）
+intro 8 | A 32 | B 16 | A2 16
 ```
 
 ---
@@ -92,6 +97,48 @@ return 8   音乐盒退回 intro 动机，力度降到 58，无缝接回开头
 | `foley-bell.wav` | 远处钟声 | 第 33 小节（return 第一拍） |
 
 生成方式见 `foley.mjs`：钟声是不谐和泛音 + 低通（模拟"远处"），椅子是带共振摆动的噪声，粉笔是几次极短的宽带脉冲。
+### 战斗曲：走廊里的追逐（DnB）
+
+**为什么选 DnB 而不是另外两个方向**
+
+| 方向 | 为什么不选 |
+|---|---|
+| A. Breakbeat / big beat | 碎拍切片听起来更像派对混音，跟"校园走廊"的紧张感不搭 |
+| B. **DnB 轻量版** ✅ | 172 BPM 够快，鼓干净、低频扎实，**完全没有失真**——"很快但还没到金属"就是这个 |
+| C. Synthwave 战斗版 | 140–150 BPM 的四拍律动跟已有的 house 撞车 |
+
+| 项 | 值 |
+|---|---|
+| 速度 | **172 BPM，全曲恒定** |
+| 调性 | A 小调（与菜单曲同调，同一部游戏切换不突兀） |
+| 鼓 | **two-step**：底鼓在 1 和 3.5，军鼓在 2 和 4，踩镲八分 |
+| 贝斯 | 走动式 sub bass，每小节 5 个音，A1/F1/G1 之间走 |
+| 和弦 | 短促切片，只在反拍出现（`0.5 / 2.5`，B 段加密到四个） |
+| B 段 | 加一层八分琶音（+12 半音），踩镲从八分变十六分 |
+| 和声 | A 段 `Am7 – Am7 – Fmaj7 – G6`；B 段 `Fmaj7 – G6 – Am7 – Em7` |
+
+**小节数为什么是 72 而不是 36**
+
+按规格的 `4 / 16 / 8 / 8` 在 172 BPM 下只有 **50 秒**，低于 90 秒下限。所以每个段等比翻倍成 `8 / 32 / 16 / 16`，比例 1:4:2:2 不变，总长 100.5 秒。
+
+**实测**
+
+| 指标 | 值 |
+|---|---|
+| 低频（40–120 Hz） | **-12.1 dB**，比 RMS 高 0.5 dB，低频是全曲最结实的部分 |
+| 8 kHz 以上 | -29.7 dB（试听做了 10 kHz 低通，踩镲也压过一轮） |
+| intro / A / B / A2 | -12.2 / -11.6 / -11.5 / -11.6 dB，**全程无台阶** |
+
+没有任何一段静音，也没有 drop——B 段只是加了琶音和十六分踩镲，音量几乎不变，靠**密度**而不是响度变化。
+
+**环境采样**：4 处，全程 ~100 秒里平均 25 秒一次，不铺满。
+
+| 时间 | 声音 |
+|---|---|
+| 11.2 s（A 开始） | 椅子 |
+| 33.5 s | 远处钟声 |
+| 55.8 s（B 开始） | 粉笔 |
+| 78.1 s（A2 开始） | 椅子 |
 ## 2. 工作流（两个阶段）
 
 ```
@@ -139,6 +186,7 @@ Format:  WAV 24-bit PCM
 cd house-demo        && node render-preview.mjs   # → house-124-fmin-preview.wav  (5:31)
 cd ../thrash-metal   && node render-preview.mjs   # → thrash-preview.wav          (3:23)
 cd ../classroom-menu && node render-preview.mjs   # → menu-preview.wav            (1:40)
+cd ../battle-172     && node render-preview.mjs   # → battle-preview.wav          (1:42)
 ```
 
 - 只读 `.mid`，只用 Node 内置模块，**不需要 `npm install`**
@@ -281,11 +329,11 @@ GP8 导入：`File → Import → MusicXML`。
 
 ### 插件（必须）
 
-| 插件 | House | Thrash | Menu |
+| 插件 | House | Thrash | Menu | Battle |
 |---|---|---|---|
-| MT-PowerDrumKit | 鼓 | 鼓 | — |
-| Ample Guitar LP | 强力 / 闷音 / 爵士 | 节奏 ×2 + 独奏 / 扫拨 | — |
-| Surge XT | 贝斯、和弦、主旋律、Clav | 贝斯 | **全部 5 条 MIDI 轨** |
+| MT-PowerDrumKit | 鼓 | 鼓 | — | 鼓 |
+| Ample Guitar LP | 强力 / 闷音 / 爵士 | 节奏 ×2 + 独奏 / 扫拨 | — | — |
+| Surge XT | 贝斯、和弦、主旋律、Clav | 贝斯 | 全部 5 条 MIDI 轨 | 贝斯 / 和弦 / 琶音 |
 
 Ample LP 需要**独立的音色库**，只装插件没声音。
 
